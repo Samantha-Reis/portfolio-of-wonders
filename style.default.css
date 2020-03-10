@@ -186,6 +186,10 @@ INTRO SECTION
   width: 200px;
 }
 
+#about{
+  background-image: radial-gradient(#eee, lightgray);
+}
+
 /*
 *
 =====================
