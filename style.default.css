@@ -140,7 +140,7 @@ INTRO SECTION
   background-position: center center;
   overflow: hidden;
   background-attachment: fixed;
-  background-image: url('/img/eilis-garvey-mpqYrw-y1EM-unsplash\ \(1\).jpg');
+  background-image: url('/img/pitt.jpg');
 }
 
 .intro h1,
@@ -211,6 +211,17 @@ figcaption{
   margin-bottom: 10px;
 }
 
+.link{
+  font-size: 20px;
+}
+
+.link{
+  margin-right: 20px;
+}
+
+.email{
+  margin-left: 20px;
+}
 /*
 *
 =====================
