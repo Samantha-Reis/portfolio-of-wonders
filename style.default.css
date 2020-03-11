@@ -70,10 +70,6 @@ section {
   background: #fff;
 }
 
-.box {
-  margin-bottom: 30px;
-}
-
 /*
 *
 =====================
@@ -207,21 +203,81 @@ SERVICES SECTION
   margin-bottom: 10px;
 }
 
-figcaption{
-  margin-bottom: 10px;
-}
-
 .link{
   font-size: 20px;
-}
-
-.link{
   margin-right: 20px;
 }
 
 .email{
   margin-left: 20px;
 }
+
+#center{
+  display:-ms-flexbox;
+  display:flex;
+  -ms-flex-wrap:wrap;
+  flex-wrap:wrap;
+  margin-right:200px;
+  margin-left:200px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.row{
+  margin-top: 30px;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+#walker{
+  margin-right: 20px;
+}
+
+.home .walk {
+  margin-top: 60px;
+  border-top: 1px solid black;
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+.home .walk .walk-text {
+  width: 49%;
+}
+
+.home .walk .walk-text p {
+  margin-bottom: 26px;
+  margin-left: 100px;
+}
+.home .walk .walk-text .btn {
+  color: white;
+  text-decoration-line: none;
+  background-color: black;
+  width: 65px;
+  padding: 8px;
+  border-radius: 8px;
+  margin-left: 100px;
+}
+.home .walk .buttons {
+  color: white;
+  text-decoration: none;
+  justify-content: center;
+}
+.home .walk .walk-img {
+  width: 46%;
+  margin-left: 4%;
+}
+.home .walk .walk-img img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-left: 10px;
+  margin-right: 50px;
+}
+
+
 /*
 *
 =====================
