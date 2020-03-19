@@ -325,6 +325,7 @@ SERVICES SECTION
   display: flex;
   justify-content: space-evenly;
   width: 100%;
+  padding-top: 200px;
 }
 
 .home .chill .chill-text {
